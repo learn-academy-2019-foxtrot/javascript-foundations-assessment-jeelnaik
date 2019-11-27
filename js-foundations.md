@@ -15,13 +15,15 @@ logIt()
 
 1a. Look at this Javascript function and try to predict what the console show.
 
-Javascript function will show 'outside' in console
+  Javascript function will show 'outside' in console
 
 1b. Test the function. Explain why the function returned what it did.
 
-  Your answer:
+  Your answer: 
 
-  Researched answer:
+  Researched answer: The output is 'undefined'. When the text variable is declared inside the 
+  function logIt() with the same name 'text', inside the function the scope of the variable is local.
+  Since the console log is stated before the declaration. function does not know what text is.
 
 
 2. What is JSON?

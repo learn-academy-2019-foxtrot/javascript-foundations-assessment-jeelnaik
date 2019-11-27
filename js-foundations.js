@@ -155,17 +155,3 @@ var combined = (arr1,arr2) =>{
 }
 console.log(combined(amounts,animals))
 
-var hi = "hello"
-var hiNew = () =>{
-    console.log("New",hi)
-}
-function hiOld1(){
-    console.log("Old",hi)
-}
-function hiOld2(){
-    console.log("Old",hi)
-    var hi = "hi"
-}
-// hiNew()
-hiOld1()
-// hiOld2()
