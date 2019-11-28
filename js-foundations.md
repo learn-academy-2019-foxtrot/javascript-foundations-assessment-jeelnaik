@@ -19,7 +19,7 @@ logIt()
 
 1b. Test the function. Explain why the function returned what it did.
 
-  Your answer: 
+  Your answer:  outside
 
   Researched answer: The output is 'undefined'. When the text variable is declared inside the 
   function logIt() with the same name 'text', inside the function the scope of the variable is local.
